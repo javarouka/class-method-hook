@@ -2,7 +2,7 @@
   "name": "class-method-hook",
   "description": "class method hook for es7",
   "main": "./build/hook.min.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/javarouka/class-method-hook"
