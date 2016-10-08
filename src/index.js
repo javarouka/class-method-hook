@@ -24,5 +24,5 @@ export default function classMethodAction(action) {
         proto[applied] = applied;
         Object.getOwnPropertyNames(proto).forEach(field => wrap(field, action, proto));
         return clz;
-    }
+    };
 }

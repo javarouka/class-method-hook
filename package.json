@@ -1,8 +1,8 @@
 {
-  "name": "decorator-advice",
-  "description": "advice decorator for es7",
-  "main": "./build/decorator.min.js",
-  "version": "1.0.2",
+  "name": "class-method-hook",
+  "description": "class method hook for es7",
+  "main": "./build/hook.min.js",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/javarouka/decorator-advice"
@@ -49,11 +49,15 @@
   "tags": [
     "aspect",
     "aop",
+    "hook",
+    "class",
     "decorator"
   ],
   "keywords": [
     "es",
     "decorator",
+    "hook",
+    "class",
     "aspect",
     "aop"
   ]
