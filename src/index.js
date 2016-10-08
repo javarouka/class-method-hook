@@ -11,7 +11,7 @@ const wrap = (field, action, proto) => {
 
     Object.defineProperty(proto, field, Object.assign({}, descriptor, {
         value() {
-            action(field, value, this);
+            action(field, arguments, value, this);
             return value.apply(this, arguments);
         }
     }));
